@@ -20,7 +20,7 @@ body {
   color: #000000;
   font-size: 20px;
   background: beige;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Gloria Hallelujah', cursive;
   margin-bottom: 20px;
   border: 2px solid transparent;
@@ -36,7 +36,7 @@ body {
   color: #c11d35;
   font-size: 20px;
   cursor: pointer;
-  text-align: end;
+  margin: auto;
   }
   button:active{
     color:#f8f8f8;
@@ -47,7 +47,7 @@ body {
   background: beige;
   margin-top: 20px;
   font-family: 'Gloria Hallelujah', cursive;
-  width: 600px;
+  width: 90%;
   font-size: 20px;
   padding: 10px;
   }
@@ -59,4 +59,16 @@ body {
   .icon{
     padding: 18px;
     background: beige;
+  }
+  .container{
+    display: flex;
+  }
+  @media all and (max-width:350px){
+    input{
+      padding: 10px;
+      width: auto;
+    }
+    .myMeals{
+      flex-direction: column;
+    }
   }
