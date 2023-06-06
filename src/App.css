@@ -1,0 +1,62 @@
+body {
+  background: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
+  background-size: fixed;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  }
+  
+  h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-size: 3em;
+  }
+  
+  input {
+  display: block;
+  width: 100%;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  background: beige;
+  padding: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  }
+  input:focus{
+    border: 2px solid #c11d35;;
+    }
+  
+  button {
+  padding: 20px 50px 20px 50px;
+  background-color: #f8f8f8;
+  border: none;
+  color: #c11d35;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: end;
+  }
+  button:active{
+    color:#f8f8f8;
+    background-color:  #c11d35;
+  }
+  p {
+  max-width: 100%;
+  background: beige;
+  margin-top: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 600px;
+  font-size: 20px;
+  padding: 10px;
+  }
+
+  .myMeals{
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    padding: 18px;
+    background: beige;
+  }
